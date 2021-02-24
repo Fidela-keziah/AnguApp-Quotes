@@ -3,15 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
 body{
-background-color:black;
-color:white;
-font-family: 'Inconsolata', monospace;
 
-}
+color:white;
+font-family: "Times New Roman", Times, serif;
+background-image:url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)}
 h1{
     color:white;
     text-align: center;
-    text-shadow:4px 4px 7px blue;
+    text-decoration: underline;
     
 }
 input[type="text"],#author,input[type="submit"]{

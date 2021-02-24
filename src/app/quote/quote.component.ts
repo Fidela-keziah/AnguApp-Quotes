@@ -9,11 +9,11 @@ import { Quote} from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote[] = [
-    new Quote(1,"If you're always trying to be normal, you will never know how amazing you can be.",'Maya Angelou','Fidela',0,0,new Date(2021,2,21)),
-   new Quote(2,"Do the best you can until you know better. Then when you know better, do better.",'Maya Angelou','Fidela',0,0,new Date(2021,2,18)),
-    new Quote(3,"Nothing will work unless you do",'Maya Angelou','Fidela',0,0,new Date(2000,2,14)),
-    new Quote(4,"Try to be a rainbow in someone’s cloud.",'Maya Angelou','Fidela',0,0,new Date(2009,4,30)),
-   new Quote(5,"If you don't like something, change it. If you can't change it, change your attitude.",'Maya Angelou','Fidela',0,0,new Date(2015,9,31)),
+    new Quote(1,"If you're always trying to be normal, you will never know how amazing you can be.",'Fidela','Maya Angelou',0,0,new Date(2021,2,21)),
+   new Quote(2,"Do the best you can until you know better. Then when you know better, do better.",'Fidela','Maya Angelou',0,0,new Date(2021,2,18)),
+    new Quote(3,"Nothing will work unless you do",'Fidela','Maya Angelou',0,0,new Date(2000,2,14)),
+    new Quote(4,"Try to be a rainbow in someone’s cloud.",'Fidela','Maya Angelou',0,0,new Date(2009,4,30)),
+   new Quote(5,"If you don't like something, change it. If you can't change it, change your attitude.",'Fidela','Maya Angelou',0,0,new Date(2015,9,31)),
   ];
   toggleDetails(index:number){
     this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
