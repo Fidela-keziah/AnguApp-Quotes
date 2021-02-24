@@ -1,1 +1,14 @@
-<p>quote-detail works!</p>
+<p>
+    written by:  {{quote.author}}
+    </p>
+    <p>
+     posted by: {{quote.publisher}}
+    </p>
+    
+    <p>This quote was published {{quote.completeDate|dateCount}} days ago</p>
+   
+    <button (click)= 'upvote()'  class="btn btn-outline-primary" id="like">{{quote.like}} like</button>
+    <button (click)= 'downvote()' class="btn btn-outline-info" id="unlike">{{quote.unlike}} unlike </button><br><br>
+  
+    <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete quote </button>
+  
