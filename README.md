@@ -1,5 +1,14 @@
 # Quotes
 
+## By **{Keziah-Fidela}**
+
+## Description
+
+{This Project will help you to add quotes,delete quote and like or unlike quote,Ps:Maya Quotes Only. }
+## License
+
+* MIT license,Copyright (c) {2021} **{Keziah-Fidela}**
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 
 ## Development server
