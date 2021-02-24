@@ -15,7 +15,7 @@ export class QuoteComponent implements OnInit {
     new Quote(4,"Try to be a rainbow in someone’s cloud.",'Maya Angelou','Fidela',0,0,new Date(2009,4,30)),
    new Quote(5,"If you don't like something, change it. If you can't change it, change your attitude.",'Maya Angelou','Fidela',0,0,new Date(2015,9,31)),
   ];
-  toggleDetails(index){
+  toggleDetails(index:number){
     this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
   }
   deleteQuote(isComplete: any, index: number){
